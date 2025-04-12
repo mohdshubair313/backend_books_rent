@@ -1,0 +1,11 @@
+[
+  {
+    "id": 1,
+    "title": "Harry Potter and the Goblet of Fire",
+    "description": "harry potter is a movie",
+    "author": "J.K. Rowling",
+    "city": "Delhi",
+    "ownerEmail": "shubair@example.com",
+    "status": "available"
+  }
+]

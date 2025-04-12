@@ -1,0 +1,52 @@
+{
+
+  "name": "backend_books_rent",
+
+  "version": "1.0.0",
+
+  "main": "main.js",
+
+  "devDependencies": {
+
+    "@tsconfig/node20": "^20.1.5",
+
+    "@types/cors": "^2.8.17",
+
+    "@types/express": "^5.0.1",
+
+    "@types/node": "^22.14.0",
+
+    "nodemon": "^3.1.9",
+
+    "ts-node": "^10.9.2",
+
+    "typescript": "^5.8.3"
+
+  },
+
+  "scripts": {
+
+    "dev": "nodemon",
+
+    "test": "echo \"Error: no test specified\" && exit 1"
+
+  },
+
+  "author": "",
+
+  "license": "ISC",
+
+  "description": "",
+
+  "dependencies": {
+
+    "cors": "^2.8.5",
+
+    "express": "^5.1.0",
+
+    "zod": "^3.24.2"
+
+  }
+
+}
+
