@@ -14,6 +14,10 @@ app.use(express.json());
 app.use('/api/auth', userRoutes);
 app.use('/api/', booksRoutes)
 
+app.get("/", (req, res) => {
+    res.send("🚀 BookRent Backend Live!");
+  });
+
 app.listen(8080, () => {
     console.log("server is running ...");
 })
