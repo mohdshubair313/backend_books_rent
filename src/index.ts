@@ -7,7 +7,10 @@ const app:Application = express();
 
 // All Middlewares
 
-app.use(cors());
+app.use(cors({
+  origin: '*', 
+}));
+
 app.use(express.json());
 
 //Routes defined
