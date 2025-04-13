@@ -31,7 +31,7 @@ const bookSchema = z.object({
 type BookRequestBody = z.infer<typeof bookSchema>;
 
 
-router.post("/Publish_books", (req,res):any => {
+router.post("/publish_books", (req,res):any => {
     const parsed = bookSchema.safeParse(req.body);
 
     if(!parsed.success) {
