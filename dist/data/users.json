@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Shubair",
+    "email": "shubair@example.com",
+    "password": "1234",
+    "mobile": "9999999999",
+    "role": "owner"
+  },
+  {
+    "name": "Shubair Seeker",
+    "email": "testseeker@example.com",
+    "password": "123456",
+    "mobile": "9876543211",
+    "role": "seeker"
+  }
+]
